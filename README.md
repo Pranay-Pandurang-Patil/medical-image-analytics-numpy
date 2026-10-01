@@ -1,4 +1,3 @@
-```markdown
 # Medical Image Analytics using NumPy
 
 A beginner-friendly medical image analysis project that demonstrates how **NumPy** can be used for basic image processing and pixel-level analysis.
