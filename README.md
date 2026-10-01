@@ -1,20 +1,23 @@
-````markdown
+```markdown
 # Medical Image Analytics using NumPy
 
-A simple medical image analysis project built mainly using **NumPy**.  
-The project demonstrates basic image processing and pixel-level analysis using NumPy arrays.
+A beginner-friendly medical image analysis project that demonstrates how **NumPy** can be used for basic image processing and pixel-level analysis.
+
+The project works with X-ray images and performs several operations using NumPy arrays.
 
 ## Features
 
-- Load and process medical images
-- Convert images to grayscale
-- Calculate pixel statistics
+- X-ray image loading
+- Grayscale image processing
+- Pixel intensity analysis
+- Mean, minimum, maximum and standard deviation calculation
 - Contrast enhancement
 - Basic edge detection
+- Difference map generation
 - Bright-region segmentation
-- Pixel intensity histogram
-- Generate an analysis report
-- Simple Tkinter GUI
+- Pixel intensity histogram analysis
+- Text-based analysis report
+- Simple graphical interface
 
 ## Technologies Used
 
@@ -29,10 +32,21 @@ The project demonstrates basic image processing and pixel-level analysis using N
 ```text
 medical-image-analytics-numpy/
 │
+├── images/
+│   ├── xray1.png
+│   └── xray2.png
+│
+├── output/
+│   ├── bright_regions.png
+│   ├── contrast_image.png
+│   ├── difference_map.png
+│   ├── edge_image.png
+│   └── report.txt
+│
 ├── main.py
 ├── README.md
 └── requirements.txt
-````
+```
 
 ## Installation
 
@@ -40,30 +54,50 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Pranay-Pandurang-Patil/medical-image-analytics-numpy.git
+```
+
+Move into the project directory:
+
+```bash
 cd medical-image-analytics-numpy
 ```
 
-Install the required libraries:
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+## Run the Project
 
 ```bash
 python main.py
 ```
 
-Select a medical image through the GUI and run the available analysis operations.
+Use the GUI to select an X-ray image and perform the available image analysis operations.
+
+## What I Learned
+
+This project was built to practice practical NumPy array operations, including:
+
+- Working with multidimensional arrays
+- Pixel-level image manipulation
+- Array normalization
+- Statistical calculations
+- Boolean masking
+- Difference operations
+- Basic image segmentation
+- Generating analysis results from numerical data
 
 ## Purpose
 
-This project was created to practice **NumPy fundamentals** through a practical image-processing application.
+The main goal of this project is to understand how NumPy can be applied to a real-world image-processing problem without relying on high-level computer vision libraries such as OpenCV.
+
+## Note
+
+This project is intended for educational purposes and does not provide medical diagnosis or clinical analysis.
 
 ## License
 
-This project is for educational purposes.
-
-```
+This project is licensed under the MIT License.
 ```
