@@ -1,0 +1,34 @@
+
+MEDICAL IMAGE ANALYSIS REPORT
+---------------------------------
+
+Image Shape:
+(2945, 2987)
+
+Datatype:
+uint8
+
+Mean Brightness:
+160.23
+
+Maximum Pixel Value:
+255
+
+Minimum Pixel Value:
+0
+
+Standard Deviation:
+64.57
+
+Threshold Used:
+200
+
+Interpretation:
+- Image processed successfully
+- Edge detection completed
+- Contrast enhancement completed
+- Bright region segmentation completed
+- Histogram analysis completed
+
+Project:
+Medical Image Analytics using NumPy
